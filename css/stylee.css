@@ -1,0 +1,362 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+.strike{
+    text-decoration: line-through 10%;
+    text-decoration-style: double;
+    size:10px;
+}
+
+.newPrice{
+    color:#e30000 !important; 
+}
+
+
+.iskljucen{
+    pointer-events: none;
+}
+
+.nice-select .list {
+     max-height: 300px; 
+     overflow-y: scroll;
+}
+
+/* ;background:#f1f6f7 */
+
+.crveno{
+    color:#e30000 !important;
+}
+
+.hidden{
+    visibility: hidden !important;
+}
+
+.naslovIndex{
+    text-shadow: 3px 3px #222 !important;
+}
+
+.filter-bar-search input, .sorting .nice-select{
+    color:#777 !important;
+}
+
+.pozadinaLogin{
+    background-image: url("../img/login.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.pozadinaRegister{
+    background-image: url("../img/register.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pozadinaContact{
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+}
+
+.pozadinaCheckout{
+    background-image: url("../img/checkout.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prviRedKorpa{
+    background-color: #f7f7f7;
+    border-top:0px !important;
+}
+
+.textareaHeight{
+    height:190px !important;
+}
+
+.korpaItem{
+    background-color: #f7f7f7;
+    border-top: 2px solid #000;
+}
+
+#prikazKorpe{
+    overflow: hidden;
+    border-radius: 10px;
+    color:#000 !important;
+}
+
+.malaSlikaKorpa{
+    max-width:100px;
+}
+
+.pixel-checkbox{
+    border-radius: 25% !important;
+    background-color: #fff !important;
+}
+
+.button-header{
+    border-color:#c2c2c2;
+}
+
+.btn-plus, .btn-minus {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.linkPointer{
+    cursor: default;
+}
+
+.kolicinaKorpa{
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.strelicePrikaz::-webkit-inner-spin-button, 
+.strelicePrikaz::-webkit-outer-spin-button{
+    opacity: 1;
+    padding: 10px;
+}
+
+.input-text{
+    border-radius:5px;
+    overflow: hidden !important;
+    padding-left: 0px !important;
+}
+
+
+.listaSocial{
+    font-size:25px !important;
+    padding-left: 10px;
+}
+
+.listaSocial a, .tp_widgets p{
+    color:#d4d4d4 !important;
+}
+
+.listaSocial a:hover{
+    color:#fff !important;
+}
+
+.single-footer-widget .sm-head span{
+    background-color: transparent !important;
+    color: #d4d4d4;
+}
+
+.pixel-radio:checked{
+    border:8px solid #384aeb !important;
+    width:16px;
+    height:16px !important; 
+}
+
+.pixel-radio{
+    width:16px;
+    height: 16px !important;
+    border: 1px solid #999999 !important;
+}
+
+.scrollToTop{
+    bottom: 60px;
+    color: #fff;
+    display: none;
+    font-size: 30px;
+    line-height: 50px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 55px;
+    z-index: 999;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    height: 55px;
+    border-radius: 50%;
+  }
+
+  .klasaSlika{
+      display:flex;
+      justify-content: center;
+      align-content: center;
+  }
+  
+  
+  .scrollToTop:hover,
+  .scrollToTop:focus {
+    color: #384aeb;
+  }
+
+  .scrollToTop {
+    background-color: #384aeb;
+    border: 2px solid #384aeb;
+}
+.list a{
+    color:#d4d4d4 !important;
+}
+
+.proizvodMargin{
+    margin-top:48px !important;
+}
+
+.list a:hover{
+    color:#fff !important;
+}
+
+.offer{
+    background:url("../img/index/banner-land.png") right center no-repeat;
+    background-size:cover;
+}
+
+.quoteSize{
+    font-size:16px;
+}
+
+.shadowLogin{
+    background: rgba(0,0,0,0.5);
+    max-width: 100% !important;
+    margin:0px;
+}
+
+.banner-breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+    color:#fff !important;
+}
+
+.shadowLogin h1 ,.shadowLogin a, .shadowLogin li{
+    color:#fff !important;
+}
+
+.skriven{
+    display: none;
+}
+
+.underlined:hover{
+    text-decoration: underline;
+}
+
+.listaCena a, .listaCena a:hover{
+    cursor: default !important;
+    color:#222 !important;
+}
+
+.scrollToTop:hover{
+    background-color: transparent;
+}
+
+.checkoutProizvodi a{
+    color:#222 !important;
+    text-decoration: underline;
+}
+
+.checkoutProizvodi a:hover{
+    color:#384aeb !important;
+    text-decoration: underline;
+    text-decoration-style:dashed;
+}
+
+.single-search-product img{
+    max-width:150px !important;
+}
+
+.kolicinaKorpa::-webkit-outer-spin-button,
+.kolicinaKorpa::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.centar{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=number]{
+    text-align: center;
+}
+    
+@media (min-width: 1200px){
+    .offer{
+        background-size:100% 100%;
+    }
+}
+    .offer__content{
+        padding:100px 0 110px 0;
+    }
+    
+    @media (min-width: 1000px){
+        .offer__content{
+            padding:122px 0 135px 0;
+        }
+    }
+    
+    .offer__content h3{
+        font-size:35px;
+        font-weight:400;
+        margin-bottom:20px;
+    }
+    
+    @media (min-width: 650px){
+        .offer__content h3{
+            font-size:50px;
+            margin-bottom:25px;
+        }
+    }
+    .offer__content h4{
+        font-size:30px;
+    }
+    
+    .offer__content p{
+        color:#555555;
+    }
+
+    .kolicinaKorpa, .kolicinaKorpa:hover{
+        color:#222 !important;
+        float:left !important;
+        font-size:14px;
+    }
+
+    .disabled-a{
+        pointer-events: none;
+    }
+    
+    @media only screen and (max-width: 990px){
+        .jedanProizvod{
+            display:flex;
+            align-items:center;
+            flex-direction:column;
+        }
+
+        .slikaProizvoda{
+            width:90% !important;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 575px){
+        .naslovIndex{
+            margin-top:40px;
+            text-shadow: 2px 2px #222 !important;
+        }
+    }
+
+    @media only screen and (min-width: 985px){
+        .login_box_area .login_box_img{
+            height:100%;
+        }
+    }

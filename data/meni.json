@@ -1,0 +1,27 @@
+[
+{
+    "id":1,
+    "link":"index.php",
+    "text": "Home"
+},
+{
+    "id":2,
+    "link":"shop.php",
+    "text":"Shop"
+},
+{
+    "id":3,
+    "link":"login.php",
+    "text":"Log in"
+},
+{
+    "id":4,
+    "link":"register.php",
+    "text":"Register"
+},
+{
+    "id":5,
+    "link":"contact.php",
+    "text":"Contact"
+}
+]
